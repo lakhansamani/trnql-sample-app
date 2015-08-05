@@ -27,6 +27,9 @@
         <service
             android:name="com.trnql.smart.location.SmartLocationService"
             android:label="TRNQL_SDK - SmartLocation Service" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>
