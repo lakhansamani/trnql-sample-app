@@ -1,11 +1,4 @@
-buildscript {
-    repositories {
-        jcenter()
-    }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
-    }
-}
+
 apply plugin: 'com.android.application'
 
 repositories {
@@ -14,7 +7,14 @@ repositories {
         dirs 'libs' //locate the lib-release.aar file in libs folder
     }
 }
-
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+    }
+}
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.1"
