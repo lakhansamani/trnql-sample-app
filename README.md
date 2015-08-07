@@ -137,8 +137,8 @@ Below is the Quick approach, which will help to you to develop such application.
           location_longitude.setText(String.format("Longitude:   %s", String.valueOf(value.getLongitude())));
           location_accuracy.setText(String.format("Accuracy:   %s", String.valueOf(value.getAccuracy())));
       }
-      ```
-      ```
+    ```
+    ```
       @Override
       protected void smartAddressChange(AddressEntry value) {
           location_address.setText(String.format("Address:   %s", value.toString()));
